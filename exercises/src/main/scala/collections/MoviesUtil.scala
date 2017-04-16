@@ -68,9 +68,9 @@ object MoviesUtil {
   // rewrite later with a for expression (hint : also use distinct)
 
   //Hint : map, mkString
-  def csv(movies: Vector[Movie]): String = {
+  def csv(movies: Vector[Movie]): String = 
     ???
-  }
+
   // Hint : ++, distinct (reuse titlesWith)
   def titlesWithAny(actorName1: String, actorName2: String): Vector[String] =
     ???
